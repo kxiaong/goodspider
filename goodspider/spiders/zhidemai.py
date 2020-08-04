@@ -6,6 +6,7 @@ class ZhidemaiSpider(scrapy.Spider):
     allowed_domains = ["smzdm.com"]
     start_urls = [
             "https://www.smzdm.com/homepage/headline",
+            "https://www.smzdm.com/fenlei/yundonghuwai/"
             ]
 
     def parse(self, response):
