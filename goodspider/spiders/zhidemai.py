@@ -10,4 +10,3 @@ class ZhidemaiSpider(scrapy.Spider):
 
     def parse(self, response):
         result = json.loads(response.body)
-        print(result)
